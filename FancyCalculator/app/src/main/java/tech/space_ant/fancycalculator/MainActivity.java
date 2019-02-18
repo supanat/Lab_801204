@@ -9,9 +9,13 @@ import android.widget.Toast;
 
 import com.shashank.sony.fancytoastlib.FancyToast;
 
+import life.sabujak.roundedbutton.RoundedButton;
+
 public class MainActivity extends AppCompatActivity {
 
     Button btnOK;
+    RoundedButton btnAccept;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +29,16 @@ public class MainActivity extends AppCompatActivity {
                 FancyToast.makeText(MainActivity.this,"Hello", Toast.LENGTH_SHORT,FancyToast.ERROR,true).show();
 
                 Log.d("debug","fc");
+            }
+        });
+
+        btnAccept = findViewById(R.id.btnAccept);
+        btnAccept.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                FancyToast.makeText(MainActivity.this,"Hello", Toast.LENGTH_SHORT,FancyToast.INFO,true).show();
+
             }
         });
 

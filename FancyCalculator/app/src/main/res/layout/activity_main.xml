@@ -12,4 +12,20 @@
         android:layout_height="wrap_content"
         android:text="OK"/>
 
+
+    <life.sabujak.roundedbutton.RoundedButton
+        android:id="@+id/btnAccept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:gravity="center"
+        android:padding="24dp"
+        android:textSize="20dp"
+        android:text="Accept"
+        android:textColor="#ffffff"
+        app:buttonGradientStartColor="@color/colorPrimary"
+        app:buttonGradientEndColor="@color/colorAccent"
+        app:buttonCornerRadius="20dp"
+        />
+
 </LinearLayout>
