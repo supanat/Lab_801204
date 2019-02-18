@@ -58,12 +58,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Clear" />
+
         <!--
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="true"
-                    android:text="I Agree" />
+                    android:text="I Agree" />-->
 
                 <RadioGroup
                     android:id="@+id/rgOperator"
@@ -102,7 +103,7 @@
 
 
                 </RadioGroup>
-                -->
+
 
 
 
